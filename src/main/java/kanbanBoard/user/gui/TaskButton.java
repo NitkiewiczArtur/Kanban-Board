@@ -12,4 +12,7 @@ public class TaskButton extends Button {
         this.id = i;
         this.taskStatus = taskStatus;
     }
+    public int getTaskStatus() {
+        return taskStatus;
+    }
 }
